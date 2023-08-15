@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T16:25:20 IST" name="Suite" finished-at="2023-06-23T16:28:32 IST" duration-ms="192032">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPageExcel_testrunner@7e5afaa6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner2@483f6d77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner@6f46426d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-23T16:25:20 IST" name="Test" finished-at="2023-06-23T16:28:32 IST" duration-ms="192032">
+      <class name="testrunner.landingPage_testrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.landingPage_testrunner@6f46426d]" started-at="2023-06-23T16:25:20 IST" name="setUpClass" finished-at="2023-06-23T16:25:21 IST" duration-ms="661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@553fbe94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner@6f46426d]" started-at="2023-06-23T16:25:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:25:40 IST" duration-ms="19426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user navigates to landing page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MagicBricks Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner@6f46426d]" started-at="2023-06-23T16:25:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:26:03 IST" duration-ms="22470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Landing page UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MagicBricks Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner@6f46426d]" started-at="2023-06-23T16:26:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:26:25 IST" duration-ms="22029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Landing Page  Fields(login button is clickable)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MagicBricks Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.landingPage_testrunner@6f46426d]" started-at="2023-06-23T16:26:25 IST" name="tearDownClass" finished-at="2023-06-23T16:26:25 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.landingPage_testrunner -->
+      <class name="testrunner.landingPageExcel_testrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.landingPageExcel_testrunner@7e5afaa6]" started-at="2023-06-23T16:27:12 IST" name="setUpClass" finished-at="2023-06-23T16:27:12 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@553fbe94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPageExcel_testrunner@7e5afaa6]" started-at="2023-06-23T16:27:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:27:52 IST" duration-ms="40314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate User enter number with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPageExcel_testrunner@7e5afaa6]" started-at="2023-06-23T16:27:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:28:32 IST" duration-ms="39997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate User enter number with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.landingPageExcel_testrunner@7e5afaa6]" started-at="2023-06-23T16:28:32 IST" name="tearDownClass" finished-at="2023-06-23T16:28:32 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.landingPageExcel_testrunner -->
+      <class name="testrunner.landingPage_testrunner2">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.landingPage_testrunner2@483f6d77]" started-at="2023-06-23T16:26:25 IST" name="setUpClass" finished-at="2023-06-23T16:26:25 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@553fbe94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner2@483f6d77]" started-at="2023-06-23T16:26:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:26:41 IST" duration-ms="16347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate User enter number with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Magicbricks Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner2@483f6d77]" started-at="2023-06-23T16:26:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:26:57 IST" duration-ms="16099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate User enter number with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Magicbricks Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.landingPage_testrunner2@483f6d77]" started-at="2023-06-23T16:26:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-23T16:27:12 IST" duration-ms="14442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate user enter  number with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Magicbricks Landing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.landingPage_testrunner2@483f6d77]" started-at="2023-06-23T16:27:12 IST" name="tearDownClass" finished-at="2023-06-23T16:27:12 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.landingPage_testrunner2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

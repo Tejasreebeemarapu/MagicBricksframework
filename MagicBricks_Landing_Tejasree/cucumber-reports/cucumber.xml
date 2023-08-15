@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="52.278" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Magicbricks Landing" name="validate User enter number with valid data - Example #1.1" time="27.27">
+<system-out><![CDATA[
+Given Chrome is opened and MagicBrick app is launched.......................passed
+Then User navigates on landing page.........................................passed
+When User clicks on postproperty............................................passed
+Then User navigates to postproperty page....................................passed
+When User enters valid number "7675825092"..................................passed
+Then User navigates to sell and Rent property...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Magicbricks Landing" name="validate User enter number with valid data - Example #1.2" time="14.005">
+<system-out><![CDATA[
+Given Chrome is opened and MagicBrick app is launched.......................passed
+Then User navigates on landing page.........................................passed
+When User clicks on postproperty............................................passed
+Then User navigates to postproperty page....................................passed
+When User enters valid number "8897341443"..................................passed
+Then User navigates to sell and Rent property...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Magicbricks Landing" name="validate user enter  number with invalid data - Example #1.1" time="10.862">
+<system-out><![CDATA[
+Given Chrome is opened and MagicBrick app is launched.......................passed
+Then User navigates on landing page.........................................passed
+When User clicks on postproperty............................................passed
+Then User navigates to postproperty page....................................passed
+When User enters invalid number "0000000000"................................passed
+Then User get error message.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
